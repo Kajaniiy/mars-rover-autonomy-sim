@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/kajani/Documents/Projects/mars-rover-autonomy-sim/build",
+  "command": "/usr/bin/c++  -I/Users/kajani/Documents/Projects/mars-rover-autonomy-sim/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/MarsRoverAutonomySim.dir/src/main.cpp.o -c /Users/kajani/Documents/Projects/mars-rover-autonomy-sim/src/main.cpp",
+  "file": "/Users/kajani/Documents/Projects/mars-rover-autonomy-sim/src/main.cpp",
+  "output": "CMakeFiles/MarsRoverAutonomySim.dir/src/main.cpp.o"
+}
+]
