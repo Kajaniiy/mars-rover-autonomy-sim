@@ -16,4 +16,12 @@ This project simulates a Mars Rover that must operate independently due to the ~
 ├── logs/ # Action logs
 ├── CMakeLists.txt # Build system
 └── README.md
+
+## 🛠️ Build Instructions
+```bash
+mkdir build
+cd build
+cmake ..
+make
+./MarsRoverAutonomySim
   
