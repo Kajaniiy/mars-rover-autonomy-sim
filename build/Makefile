@@ -129,6 +129,30 @@ MarsRoverAutonomySim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MarsRoverAutonomySim.dir/build.make CMakeFiles/MarsRoverAutonomySim.dir/build
 .PHONY : MarsRoverAutonomySim/fast
 
+src/TerrainMap.o: src/TerrainMap.cpp.o
+.PHONY : src/TerrainMap.o
+
+# target to build an object file
+src/TerrainMap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MarsRoverAutonomySim.dir/build.make CMakeFiles/MarsRoverAutonomySim.dir/src/TerrainMap.cpp.o
+.PHONY : src/TerrainMap.cpp.o
+
+src/TerrainMap.i: src/TerrainMap.cpp.i
+.PHONY : src/TerrainMap.i
+
+# target to preprocess a source file
+src/TerrainMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MarsRoverAutonomySim.dir/build.make CMakeFiles/MarsRoverAutonomySim.dir/src/TerrainMap.cpp.i
+.PHONY : src/TerrainMap.cpp.i
+
+src/TerrainMap.s: src/TerrainMap.cpp.s
+.PHONY : src/TerrainMap.s
+
+# target to generate assembly for a file
+src/TerrainMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MarsRoverAutonomySim.dir/build.make CMakeFiles/MarsRoverAutonomySim.dir/src/TerrainMap.cpp.s
+.PHONY : src/TerrainMap.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MarsRoverAutonomySim"
+	@echo "... src/TerrainMap.o"
+	@echo "... src/TerrainMap.i"
+	@echo "... src/TerrainMap.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

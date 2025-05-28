@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MarsRoverAutonomySim.dir/src/TerrainMap.cpp.o"
+  "CMakeFiles/MarsRoverAutonomySim.dir/src/TerrainMap.cpp.o.d"
   "CMakeFiles/MarsRoverAutonomySim.dir/src/main.cpp.o"
   "CMakeFiles/MarsRoverAutonomySim.dir/src/main.cpp.o.d"
   "MarsRoverAutonomySim"

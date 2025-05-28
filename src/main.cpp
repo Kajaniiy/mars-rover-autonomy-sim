@@ -1,4 +1,5 @@
 #include <iostream>
+#include "TerrainMap.h"
 
 using namespace std;
 
